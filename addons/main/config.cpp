@@ -1,4 +1,3 @@
-#include "BIS_AddonInfo.hpp"
 class CfgPatches {
     class lambs_rpg {
         units[] = {};
@@ -11,7 +10,7 @@ class CfgPatches {
         };
         version = "1.52";
         versionStr = "1.52";
-        author = "nkenny";
+        author = "Esmeray";
         authorUrl = "http://www.nopryl.no";
     };
 };

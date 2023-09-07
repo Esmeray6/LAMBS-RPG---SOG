@@ -1,6 +1,6 @@
-name = "ACE3"
-prefix = "ace"
-author = "ACE-Team"
+name = "LAMBS RPG - SOG"
+prefix = "rpg_sog"
+author = "Esmeray"
 mainprefix = "z"
 
 [files]
