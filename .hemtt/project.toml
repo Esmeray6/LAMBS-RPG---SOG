@@ -1,0 +1,25 @@
+name = "ACE3"
+prefix = "ace"
+author = "ACE-Team"
+mainprefix = "z"
+
+[files]
+include = [
+    "*.dll",
+    "*.so",
+    "mod.cpp",
+    "README*.md",       # Translated READMEs get moved to root in a hook (virtual file system)
+    "AUTHORS.txt",
+    "LICENSE",
+    "lambs_logo.paa",
+    "meta.cpp",
+]
+
+[hemtt.config]
+preset = "Hemtt"
+
+[hemtt.launch]
+workshop = [
+    "450814997", # CBA_A3's Workshop ID
+]
+dlc = ["VN"]
