@@ -8,7 +8,7 @@ include = [
     "*.dll",
     "*.so",
     "mod.cpp",
-    "README*.md",       # Translated READMEs get moved to root in a hook (virtual file system)
+    "README*.md",     # Translated READMEs get moved to root in a hook (virtual file system)
     "AUTHORS.txt",
     "LICENSE",
     "lambs_logo.paa",
@@ -20,6 +20,9 @@ preset = "Hemtt"
 
 [hemtt.launch]
 workshop = [
-    "450814997", # CBA_A3's Workshop ID
+    "450814997",  # CBA_A3
+    "1779063631", # Zeus Enhanced
+    "623475643",  # 3den Enhanced
+    "2369477168", # Advanced Dev Tools
 ]
 dlc = ["VN"]
