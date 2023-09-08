@@ -1,10 +1,8 @@
 # LAMBS RPG 
-This mod is a config level tweak shoulderfired launchers and SPG9 vehicle mounted recoilless cannon. The AI will act more aggressively when equipped withthese weapons. 
+This mod is a config level tweak for hand-hend launchers from the [SOG DLC](https://store.steampowered.com/app/1227700/Arma_3_Creator_DLC_SOG_Prairie_Fire/). The AI will act more aggressively when equipped with them. 
 
-**RPG7** weapon and ammunition configs are tweaked to allow the AI to target air vehicles and ground infantry. It increases ai dispersion and adds a more powerful cosmetic effect to shooting. 
-
-**RPG32** is tweaked to allow the AI to target air vehicles and infantry. 
-
-**MAAWS** is tweaked to allow the AI to target infantry. 
-
-**SPG9 HEAT** ammunition is tweaked to allow shots against infantry. 
+Configs of the following launchers are tweaked:
+- B40
+- B41
+- M72 LAW
+- M20A1B1
