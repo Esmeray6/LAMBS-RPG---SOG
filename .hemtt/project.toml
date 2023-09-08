@@ -22,6 +22,7 @@ preset = "Hemtt"
 workshop = [
     "450814997",  # CBA_A3
     "1779063631", # Zeus Enhanced
+    # Zeus Enhanced requires CBA_A3. Otherwise, none of these are required. I just want to make my life easier here. :)
     "623475643",  # 3den Enhanced
     "2369477168", # Advanced Dev Tools
 ]
