@@ -53,28 +53,28 @@ class CfgWeapons {
       sounds[] = {"StandardSound"};
     };
   };
-  class vn_m72 : vn_Launcher_Base_F {
-    class Single : Mode_SemiAuto {
-      dispersion = 0.018;
-      aiDispersionCoefX = 1.8;
-      aiDispersionCoefY = 2.4;
-      aiRateOfFire = 5;
-      aiRateOfFireDispersion = 5;
-      aiRateOfFireDistance = 450;
-      maxRange = 450;
-      maxRangeProbab = 1.8;
-      midRange = 200;
-      midRangeProbab = 2.5;
-      minRange = 5;
-      minRangeProbab = 0.5;
-    };
-  };
+  // class vn_m72 : vn_Launcher_Base_F {
+  //   class Single : Mode_SemiAuto {
+  //     dispersion = 0.018;
+  //     aiDispersionCoefX = 1.8;
+  //     aiDispersionCoefY = 2.4;
+  //     aiRateOfFire = 5;
+  //     aiRateOfFireDispersion = 5;
+  //     aiRateOfFireDistance = 450;
+  //     maxRange = 450;
+  //     maxRangeProbab = 1.8;
+  //     midRange = 200;
+  //     midRangeProbab = 2.5;
+  //     minRange = 5;
+  //     minRangeProbab = 0.5;
+  //   };
+  // };
 };
 
 class CfgAmmo {
   class RocketCore;
   class RocketBase;
-  class vn_rocket_ammo_base;
+  // class vn_rocket_ammo_base;
   class R_PG7_F : RocketBase {
     aiAmmoUsageFlags = "64 + 128 + 256 + 512";
     airLock = 1;
@@ -100,8 +100,32 @@ class CfgAmmo {
     allowAgainstInfantry = 1;
     cost = 40;
   };
-  class vn_m72_rocket_ammo : vn_rocket_ammo_base {
+  class vn_m72_rocket_ammo {
     allowAgainstInfantry = 1;
-    cost = 40;
+    cost = 70;
+  };
+  class vn_rpg2_rocket_ammo {
+    allowAgainstInfantry = 1;
+    cost = 70;
+  };
+
+  // Inherits from vn_rpg2_rocket_ammo. Kinda pointless to have both.
+  // class vn_rpg2_fuze_rocket_ammo {
+  //   allowAgainstInfantry = 1;
+  //   cost = 70;
+  // };
+
+  // B41 only has one type of ammo.
+  class vn_rpg7_rocket_ammo {
+    allowAgainstInfantry = 1;
+    cost = 70;
+  };
+  class vn_m20a1b1_wp_ammo {
+    allowAgainstInfantry = 1;
+    cost = 100;
+  };s
+  class vn_m20a1b1_heat_ammo {
+    allowAgainstInfantry = 1;
+    cost = 100;
   };
 };
